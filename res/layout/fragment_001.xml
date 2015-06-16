@@ -5,16 +5,91 @@
     android:orientation="vertical"
     tools:context="com.jk.demo3.MainActivity" >
 
-    <com.jk.view.MyListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="100" >
-    </com.jk.view.MyListView>
-
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="点击加载更多" />
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="这里不要再放数据量大的listview" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="数据量小的可以可以" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="数据量大的可以用另一个实现，下拉加载更多" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
 
 </LinearLayout>

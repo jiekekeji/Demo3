@@ -30,7 +30,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="0.5dp" />
 
             <!-- 悬浮的view -->
 
@@ -54,7 +54,7 @@
                         android:background="@drawable/radio2"
                         android:button="@null"
                         android:gravity="center"
-                        android:text="fragment1" />
+                        android:text="电影" />
 
                     <RadioButton
                         android:id="@+id/rb002"
@@ -64,7 +64,7 @@
                         android:background="@drawable/radio2"
                         android:button="@null"
                         android:gravity="center"
-                        android:text="fragment2" />
+                        android:text="会员卡" />
                 </RadioGroup>
             </LinearLayout>
 

@@ -1,13 +1,95 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.jk.demo3.MainActivity" >
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:text="fragment002" />
+        android:layout_height="60dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="这里不要再放数据量大的listview" />
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="数据量小的可以可以" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="数据量大的可以用另一个实现，下拉加载更多" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray"
+        android:gravity="center"
+        android:text="itemt" />
+
+</LinearLayout>
